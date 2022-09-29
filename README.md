@@ -10,5 +10,14 @@ MYTHERESA – LUXURY FASHION AND DESIGNER SHOPPING, Mytheresa is an online shopp
 # Feature
 You can signup/login, and then arrive on a super detailed landing page, explore various sections such as new and bestselling, various categories, and then order any product from our website. Also our website is really easy to use with its navbar showing all the important info on it. We accept all the popular payment methods.
 
+# Collaborators
+- HomePage -> Shubham
+- Filtering -> Niraj Kendre 
+- Ladies Product Page -> Juhi Diwase
+- Search -> Sonu Gupta
+- Data Collecting and Cart Page -> Subhod Pal
+- Payment Page -> Dilip Kumar
+
 # Feeback
 If you have any feedback, please reach out to us at dilip19121998@gmail.com.
+
