@@ -1,0 +1,654 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.new-arrivel {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    top: 220px;
+        left: 172px;
+        height: 400px;
+}
+
+.designers {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    top: 151px;
+    left: 172px;
+}
+
+.clothing {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    top: 151px;
+    left: 172px;
+}
+
+.shoes {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    top: 162px;
+    left: 150px;
+}
+
+.bags {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    top: 162px;
+    left: 150px;
+    padding: 10px;
+}
+
+.accessories {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    top: 161px;
+    left: 150px;
+}
+
+.jewelry {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    top: 152px;
+    left: 150px;
+    padding: 10px;
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    width: 77%;
+    margin: auto;
+}
+
+#nav1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: -15px;
+}
+
+#nav1a {
+    display: flex;
+    gap: 25px;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    font-size: 15.5px;
+    color: rgb(76, 76, 76);
+}
+#nav1a a{
+    color: black;
+}
+#nav1b a {
+color: gray;
+}
+
+#nav1b {
+    display: flex;
+    gap: 35px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: gray;
+}
+
+#nav1a>p:hover {
+    background-color: #b7b7b7;
+    cursor: pointer;
+}
+
+#nav1b>h4:hover {
+    background-color: #b7b7b7;
+    cursor: pointer;
+}
+
+#nav2 {
+    display: flex;
+}
+
+#nav2>img {
+    width: 23%;
+    margin: auto;
+    padding-left: 150px;
+}
+
+#shopping {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    color: rgb(76, 76, 76);
+    width: 15%;
+    height: 100px;
+    font-size: 14px;
+}
+
+#shopping>a>img {
+    height: 30px;
+    margin-left: 5px;
+    width: 30px;
+}
+
+#nav3 {
+    display: flex;
+    align-items: center;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    color: #757575;
+    /* border: 1px solid; */
+    margin-bottom: -20px;
+}
+
+#ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: -40px;
+    font-size: 13.5px;
+}
+
+#query {
+    border: 1px solid #dfdfdf;
+    align-items: center;
+    width: 55%;
+    margin-left: 60px;
+    height: 30px;
+    margin-bottom: 12px;
+}
+
+hr {
+    color: #dfdfdf;
+    border: 0.01px solid #dfdfdf;
+    /* margin-top: 10px; */
+}
+
+#nav4 {
+    /* margin: 0px;
+    padding: 0px; */
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    position: sticky;
+    top: 0px;
+    background-color:#dfdfdf;
+    height: 20px;
+}
+
+#img1 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#img2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#sec1 {
+    padding: 30px 0;
+    border-top: 1px solid #dfdfdf;
+    text-align: center;
+    background-color: #f6f6f6;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    height: 190px;
+}
+
+#sec1 h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+#sec1>h3 {
+    margin-bottom: -5px;
+}
+
+.btn1 {
+    padding: 6px 22px 6px 22px;
+    background-color: black;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.grid {
+    display: flex;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.first {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+.lord {
+    font-size: 35px;
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.second {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+.gridimg1 {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.gridimg2 {
+    width: 100%;
+    height: 307px;
+    margin-top: 30px;
+}
+
+#secAfterGrid {
+    margin-top: 40px;
+    text-align: center;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+}
+
+#lastGrid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: repeat(1, auto);
+    justify-content: space-between;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    margin-top: -25px;
+}
+
+#lastGrid div {
+    text-align: center;
+}
+
+#lastGrid img {
+    width: 100%;
+    height: 250px;
+}
+
+#lastbtn {
+    text-align: center;
+}
+
+#footDesc {
+    width: 86%;
+    margin: auto;
+    text-align: center;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+}
+
+.bigPara {
+    font-size: 15px;
+    text-align: center;
+}
+
+.smallPara {
+    font-size: 12.4px;
+    text-align: left;
+}
+
+.smallPara:hover {
+    font-size: 14px;
+}
+
+#footDesc1 {
+    display: flex;
+    /* justify-content: space-between; */
+    text-align: left;
+}
+
+#footDesc2 {
+    width: 27%;
+    font-family: Futura-Medium, Century Gothic, Gill Sans, Helvetica, Arial, sans-serif;
+    margin: auto;
+}
+
+#downlogo {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+}
+
+#downlogo img {
+    width: 40%;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: repeat(6, 16%);
+    color: rgb(73, 73, 73);
+    /* margin-top: 100px; */
+    justify-content: center;
+    /* font-family: sans-serif; */
+    /* background-color: #FBF8F1; */
+}
+
+#footer p {
+    font-size: 14px;
+}
+
+#footer>div p:hover {
+    text-decoration: underline 2px;
+    color: darkorange;
+}
+
+.FH {
+    color: black;
+}
+
+#lastLine {
+    padding: 2%;
+    /* background-color: #FBF8F1; */
+}
+
+#lastLine>span {
+    margin-right: 40px;
+    font-size: 13px;
+    color: grey;
+}
+
+#lastLine span:hover {
+    text-decoration: underline 2px;
+}
+
+#smDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+#smDiv>div:nth-child(1) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#smDiv>div:nth-child(1) img {
+    height: 25px;
+
+}
+
+#smDiv>div:nth-child(2) img {
+    height: 25px;
+    margin: 5px;
+
+}
+
+#smDiv>div:nth-child(2) img:nth-child(5) {
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+#cont {
+    display: none;
+    position: absolute;
+    width: 20%;
+    overflow: scroll;
+    height: 300px;
+    background-color: #f6f6f6
+}
+
+#dropdown:hover #cont {
+    display: block;
+}
+#ul>li:hover .new-arrivel{
+    display: block;
+}
+#ul>li:hover .accessories{
+    display: block;
+}
+#ul>li:hover .bags {
+    display: block;
+}
+#ul>li:hover .clothing {
+    display: block;
+}
+#ul>li:hover .jewelry {
+    display: block;
+}
+#ul>li:hover .designers {
+    display: block;
+}
+#ul>li:hover .shoes {
+    display: block;
+}
+
+/* juhi */
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+/* body{
+    scroll-behavior: smooth;
+} */
+.new-arrivel {
+    width: 50%;
+}
+
+.right-part>p {
+    /* margin-left: -10px; */
+}
+
+.top-line {
+    display: flex;
+    background-color: rgb(221, 224, 224);
+    height: 30px;
+    gap: 60px;
+    height: 40px;
+
+}
+
+.top-line p {
+    margin-top: 10px;
+    margin-left: 5rem;
+
+}
+
+.bottom-container {
+    display: flex;
+    /* text-align: right; */
+}
+
+.bottom-container>.left {
+    display: flex;
+    /* text-align: right; */
+    gap: 10rem;
+    /* border: 1px solid red; */
+    margin-left: 4rem;
+}
+
+.bottom-container>.left>.left-part {
+    line-height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.bottom-container>.left>.left-part>p {
+    width: 85px;
+    font-size: 14px;
+}
+
+.bottom-container>.left>.right-part>p {
+    width: 85px;
+    font-size: 14px;
+}
+
+.bottom-container>.left>.left-part>p:hover {
+    color: rgb(121, 123, 123);
+}
+
+.bottom-container>.left>.right-part {
+    line-height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.bottom-container>.left>.right-part>p:hover {
+    color: rgb(121, 123, 123);
+}
+
+.bottom-container>.right {
+    /* margin-left: 10%; */
+    text-align: end;
+    cursor: pointer;
+}
+
+.bottom-container>.right>img {
+    margin-top: 15px;
+    height: 70%;
+    width: 80%;
+}
+
+.bottom-container>.right>.text {
+    /* position: absolute; */
+    margin-top: -10rem;
+    text-align: center;
+    margin-left: 20%;
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.bottom-container>.right>.text>button {
+    /* width: 120px;
+    height: 40px;
+    margin-top: 10px; */
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    background-color: #fff;
+    border: #fff;
+    color: black;
+    letter-spacing: 1px;
+    transition: .5s;
+}
+
+.bottom-container>.right>.text>button:hover {
+    color: #fff;
+    background-color: black;
+}
+
+.designers {
+    width: 50%;
+    margin-top: 70px;
+    /* height: 60%; */
+}
+
+#txt {
+    font-size: 22px;
+    color: black;
+}
+
+#btn {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    background-color: black;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    transition: .5s;
+}
+
+#btn:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.clothing {
+    margin-top: 70px;
+    width: 50%
+}
+
+.H {
+    margin-top: -200px;
+}
+
+.shoes {
+    width: 50%;
+    margin-top: 60px;
+}
+
+.bags {
+    width: 50%;
+    margin-top: 60px;
+}
+
+.accessories {
+    width: 50%;
+    margin-top: 60px;
+}
+
+.jewelry {
+    width: 50%;
+    margin-top: 70px;
+}
+
+.vacation {
+    margin-top: 50px;
+    width: 72.2%;
+}
+
+.vacation>.bottom-containerr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.vacation>.bottom-containerr>.img1>img {
+    width: 260px;
+    height: 240px;
+    padding: 8px;
+    margin-top: -8px;
+    cursor: pointer;
+    /* grid-template-columns: repeat(4, 1fr); */
+}
+
+.vacation>.bottom-containerr>.img1>h3 {
+    margin-top: -50px;
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    color: rgb(3, 0, 10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.vacation>.bottom-containerr>.img1>h4 {
+    margin-top: -40px;
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    color: rgb(3, 0, 10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#social-logo{
+   display: flex;
+   flex-direction: row;
+}
+#social-logo>div{
+   height: 30px;
+   width: 30px;
+}
+
+
+

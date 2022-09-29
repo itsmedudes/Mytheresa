@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Gentium Plus', serif;
+}
+/* section one----------- */
+a {
+    text-decoration: none;
+    color: white;
+}
+.one{
+    
+    /* width: 80%; */
+    padding: 6%;
+    
+}
+.container{
+    display: flex;
+    gap: 30px;
+}
+.container > .left-part {
+    width: 50%;
+    /* border: 1px solid red; */
+    /* background-color: aquamarine; */
+}
+.container>.left-part>hr{
+    margin-top: 40px;
+}
+.container>.left-part>.pictures{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.container>.left-part>.pictures>img{
+    width: 200px;
+}
+
+.container > .right-part {
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.container > .left-part > .image >img{
+    width: 500px;
+    margin-left: 100px;
+}
+.right-part>.right-content>h1{
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+.right-part>.right-content>h4{
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 3px;
+    color: rgb(94, 92, 92);
+}
+.right-part>.right-content>p{
+    font-weight: bolder;
+    margin-top: 7px;
+    font-size: 16px;
+}
+.right-part>.right-content>.p{
+    color: rgb(94, 92, 92);
+    font-weight: lighter;
+    width: 25rem;
+    font-size: 14px;
+    margin-top: 7px;
+}
+.right-content>.size{
+    margin-top: 20px;
+}
+.right-content>.size>select{
+    height: 35px;
+    margin-bottom: 10px;
+}
+.right-content>.size>button{
+    background-color:#fff;
+    border: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: .5px;
+    color: rgb(114, 113, 113);
+    margin-left: 15px;
+}
+.right-content>.size>button:hover{
+    color: black;
+}
+.right-content>.add-btn>button{
+    width: 16rem;
+    height: 2.5rem;
+    background-color: black;
+    color: #fff;
+    /* margin-bottom: 10px; */
+    margin-top: 15px;
+    transition: .3s;
+    letter-spacing: 1px;
+}
+.right-content>.add-btn{
+    display: grid;
+}
+.right-content>.add-btn>button:hover{
+    background-color: rgb(72, 70, 70);
+    border: rgb(72, 70, 70);
+}
+.right-content>.add-btn>#b-t-n{
+   background-color: rgb(243, 243, 246);
+   color: black; 
+   border: rgb(243, 243, 246);
+   letter-spacing: 1px;
+}
+.right-content>.add-btn>#b-t-n>svg{
+    width: 17px;
+    margin-left: 5px;
+    margin-bottom: -3px;
+}
+.right-content>.add-btn>#b-t-n:hover{
+    background-color:rgb(219, 219, 221) ;
+}
+.line-content{
+    margin-top: 30px;
+}
+.line-content{
+   width: 75%;
+}
+
+.line-content>.a>h5{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: rgb(114, 113, 113);
+}
+.line-content>h5{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: rgb(114, 113, 113);
+}
+.right-content>.ques{
+    margin-top: 20px;
+    line-height: 23px;
+    cursor: pointer;
+}
+.right-content>.ques>p:hover{
+    color: black;
+}
+.right-content>.ques>p{
+    color: rgb(114, 113, 113);
+    font-size: 17px;
+    transition: .2s;
+}
+.right-content>.icons{
+    display: flex;
+}
+.right-content>.icons>svg{
+    cursor: pointer;
+    width: 22px;
+    margin-top: 30px;
+    margin-left: 13px;
+}
+.right-content>.icons>svg:hover{
+    color: rgb(114, 113, 113);
+}
+
+/* section two----------- */
+
+.two{
+    padding: 7%;
+    margin-top: -5rem;
+}
+.two>.container-2>h1{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Karla', sans-serif;
+    font-weight: lighter;
+}
+.two>.container-2>.image2{
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    margin-left: 40px;
+}
+.two>.container-2>.image2>.i1>img.i{
+    cursor: pointer;
+    margin-top: 10rem;
+}
+.two>.container-2>.image2>.i1>p{
+    margin-top: 15px;
+}
+.two>.container-2>.image2>.i1>.amount{
+    font-weight: bolder;
+}
+/* -------section 3------- */
+
+.three{
+    padding: 6%;
+    width: 80%;
+    margin-left: 4rem;
+    margin-top: -4rem;
+}
+.three>.container-3>h1{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Karla', sans-serif;
+    font-weight: lighter;
+}
+.three>.container-3>.image3{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-left: 2rem;
+    gap: 20px;
+    /* margin-left: 40px; */
+}
+.three>.container-3>.image3>.i2>img{
+    width: 90%;
+    margin-top: 50px;
+    
+}
+
+@media (max-width:1024px){
+    
+}
+

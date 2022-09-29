@@ -1,0 +1,88 @@
+@font-face {
+   font-family: 'futur';
+   src: url('./font-style/futur.ttf');
+}
+*{
+   font-weight: 100;
+   color: rgb(84, 84, 84);
+   font-family:Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+
+.shipping-box{
+   border: 1px solid red;
+   padding: 8px;
+
+}
+.line-shipping{
+   width: 100%;
+}
+#radio-div{
+   display: flex;
+   margin-bottom: 8px;
+
+}
+.price{
+   display: inline-block;
+   
+}
+.radio-express{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.packing-container{
+   display: flex;
+   justify-content: space-between;
+}
+#shipping-billing{
+   display: flex;
+   width: 75%;
+   margin: auto;
+   justify-content: space-around;
+   gap: 10px;
+   
+}
+#billing{
+   width: 45%;
+}
+#shipping{
+   width: 45%;
+}
+.input-style{
+   padding: 12px;
+   display: block;
+   margin-bottom: 8px;
+   width: 80%;
+}
+.billing-btn{
+   padding: 8px 20px;
+   display: block;
+   font-weight: 600;
+}
+.shop-bag{
+   margin-top: 150px;
+}
+.label-bold{
+   font-weight: bold;
+}
+#order-container{
+   width: 45%;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: center;
+}
+#order-place{
+  font-size: 60px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+#order-div{
+   display: flex;
+   justify-content: center;
+}
+#order-div>img{
+   width: 100%;
+}

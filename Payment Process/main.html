@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Checkout</title>
+   <link rel="stylesheet" href="./main.css">
+   <link rel="stylesheet" href="./delivery.css">
+   <link rel="stylesheet" href="./checkout.css">
+   <link rel="stylesheet" href="./login.css">
+   
+   <link rel="stylesheet" href="./shippingmethod.css">
+   <link rel="stylesheet" href="./payment.css">
+</head>
+<body>
+<!-- heading-logo -->
+   <div class="header-logo" >
+      <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T171237" alt="">
+   </div>
+
+<!-- progress bar -->
+
+
+<div id="stage" class="d-flex my-5 justify-content-center align-items-center gap-1">
+   <div class="hr"></div>
+   <div class="stage_name">
+      <p>SHOPPING BAG</p>
+      <div class="box visited first"></div>
+   </div>
+   <div class="hr"></div>
+   <div class="stage_name">
+      <p>SIGN IN</p>
+      <div class="box visited second"></div>
+   </div>
+   <div class="hr"></div>
+   <div class="stage_name">
+      <p>DELIVERY</p>
+      <div class="box visited active third"></div>
+   </div>
+   <div class="hr"></div>
+   <div class="stage_name">
+      <p>PAYMENT</p>
+      <div class="box fourth"></div>
+   </div>
+   <div class="hr"></div>
+   <div class="stage_name">
+      <p>CONFIRM</p>
+      <div class="box fifth"></div>
+   </div>
+   <div class="hr"></div>
+</div>
+
+<!-- append -->
+
+<div id="extraappend">
+   <div id="container">
+      <!-- login -->
+   
+      <div class="c-first">
+         <h3 class="login-heading">You already have a password</h3>
+         <p class="p-login">Please sign in here by entering your email address and your password. By signing in, your account information, including saved addresses, will be available throughout the checkout.</p>
+         <input type="text" id="email" placeholder="Email Address *" class="pad">
+         <input type="password" id="password" placeholder="Password *" class="pad">
+         <p>* required fields</p>
+   
+         <p class="forget-pass">Did you forget your password?</p>
+         <button class="login btnproceed" id="log">Proceed With Login</button>
+      </div>
+   
+      <div class="line"></div>
+      <!-- without login -->
+       <div class="c-second">
+         <h3 class="login-heading">You don not have a password yet</h3>
+         <p class="p-login">Orders can be placed without a password too.</p>
+         <button class="login" id="without-login">Proceed Without Login</button>
+       </div>
+   
+      </div>
+</div>
+<!-- bottom -->
+<hr>
+   <p class="text">You can also place your order via telephone.</p>
+  
+   <div id="contact-us">
+   <div>
+      <p>CALL US</p>
+      <P>+49 89 127695-101</P>
+      <P>Available 24/7</P>
+   </div>
+
+   <div>
+      <p>MAIL US</p>
+      <P>customercare@mytheresa.com</P>
+      <P>Please note that due to a high amount of requests, we might take a few days to get back to you. We apologize for any inconvenience this may cause.</P>
+   </div>
+</div>
+<hr>
+
+<div class="copyright">
+   <p>copyright © 2006-2022 mytheresa.com</p>
+   <div>
+      <p>terms of use</p>
+      <p>privacy policy</p>
+      <p>imprint</p>
+   </div>
+</div>
+
+
+
+</body>
+</html>
+<script src="./main.js" type="module">
+</script>
+

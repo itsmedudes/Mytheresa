@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>womens</title>
+  
+  <link rel="stylesheet" href="womens.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../index.css">
+<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;1,100&display=swap" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+
+<style>
+
+</style>
+
+
+
+
+</head>
+<body>
+  <div id="navbars"></div>
+  <div id="info-div">
+    <div><img src="https://img.mytheresa.com/media/static/raw/cms/l/DesignerBios_MW_SS21/Valentino/Valentino_2x_20210422162303.jpg?imwidth=600&imdensity=2" alt="">
+      <p>Synonymous with innovation and unique craftsmanship, 
+        luxury Italian brand Valentino continues to evolve. Since his Creative Director appointment in 2016, Pierpaolo Piccioli has merged the label’s classic heritage 
+        styles with modern inflections telling of a new era. Today, Valentino’s ready-to-wear menswear collections are a sought after brand reference, adopting a youthful aesthetic with vibrant prints, casual jerseys and distinct tailored pieces.</p>
+        <p>Click below to complete your look with shoes, bags and accessories from Valentino Garavani.</p></div>
+    
+    <div><img src="https://img.mytheresa.com/media/static/raw/cms/l/Designer_Bios/Valentino/Image/BioBox_Valentino_RTW_x2_20220614124715.jpg?imwidth=1180&imdensity=2" alt="" id="men-img"></div>
+  </div>
+  <div id="valen-cato">
+    <p>VALENTINO GARAVANI</p>
+    <p>VALENTINO GARAVANI SHOES</p>
+    <p>VALENTINO GARAVANI BAGS</p>
+    <p>VALENTINO GARAVANI ACCESSORIES</p>
+  </div>
+  <div id="above-main-pf-div">
+    <p>Products</p>
+    <p>193 products</p>
+    <select name="" id="filter-sortby-price">
+      <option value="">Sort By</option>
+      <option value="LTH">Price low-to-high</option>
+      <option value="HTL">Price high-to-low</option>
+    </select>
+  </div>
+  <div id="main-pf-div">
+    <div id="filter-main-div">
+      <p id="valentino_name">VALENTINO</p>
+      <div class="sidenav">
+        <hr>
+        <div>
+          <span>Reduced By %</span>
+          <select id="sortBy-discount">
+            <option value="">Select Discount</option>
+            <option value="30">30%</option>
+            <option value="40">40%</option>
+            <option value="50">50%</option>
+          </select>
+        </div>
+        <hr>
+        <div>
+          <span>Colour</span>
+          <select id="sortBy-colour">
+            <option value="">Select Colour</option>
+            <option value="black">Black</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="grey">Grey</option>
+            <option value="pink">Pink</option>
+            <option value="golden">Golden</option>
+            <option value="yellow">Yellow</option>
+            <option value="white">White</option>
+          </select>
+        </div>
+        <hr>
+        <div>
+          <span>Size</span>
+          <select id="sortBy-size">
+            <option value="">Select Size</option>
+            <option value="size0">S</option>
+            <option value="size1">M</option>
+            <option value="size2">L</option>
+            <option value="size3">XL</option>
+          </select>
+        </div>
+    
+      </div>
+    </div>
+    <div id="product-main-div"></div>
+  </div>
+</body>
+<div id="footers"></div>
+</html>
+
+
+
+<script src="./womens.js" type="module"></script>
+<script type="module">
+      
+  import navbar from "../components/navbar.js"
+  import footer from "../components/footer.js"
+  document.getElementById("footers").innerHTML = footer()
+  document.getElementById("navbars").innerHTML = navbar()
+  
+</script>

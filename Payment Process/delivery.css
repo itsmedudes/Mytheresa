@@ -1,0 +1,44 @@
+.d-flex{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 1px;
+} 
+.hr{
+   border-bottom: 1px solid black;
+   width: 20%;
+   padding: 0;
+   height: .5px;
+}
+
+#stage>.stage_name{
+   position: relative;
+   
+}
+#stage>.stage_name>p{
+   position: absolute;
+   top: -50px;
+   text-align: center;
+   left: -25px;
+   font-size: small;
+}
+.box{
+   width: 10px;
+   height: 10px;
+   background-color: #f2f2f2;
+}
+.my-3{
+   margin-top:3rem;
+   margin-bottom: 3rem;
+}
+
+#n{
+   background-color: #dcdcdc;
+}
+#y{
+   background-color: black;
+}
+#z{
+   background-color: #757575;
+}
+

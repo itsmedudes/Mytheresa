@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wen's Page</title>
+  <link rel="stylesheet" href="mens.css">
+</head>
+<body>
+  
+</body>
+</html>
+
+
+
+
+<script>
+    var mensData = [
+  {
+    image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/9a/P00653843_b1.jpg",
+    name: "JUNYA WATANABE",
+    brand: "Cotton pants",
+    price: 311,
+    strikedoffprice: 445,
+    discount: "30 % off",
+    colour:"yellow",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/80/P00651590_b1.jpg",
+    name: "AMI PARIS",
+    brand: "Ami de Cœur cotton shorts",
+    price: 108,
+    strikedoffprice: 155,
+    discount: "30 % off",
+    colour:"black",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/9c/P00651571_b1.jpg",
+    name: "AMI PARIS",
+    brand: "Logo canvas tote bag",
+    price: 202,
+    strikedoffprice: 202,
+    discount: "30 % off",
+    colour:"pink",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+   
+  },
+  {
+    
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/11/P00651588_b1.jpg",
+    name: "AMI PARIS",
+    brand: "Cotton and linen sweater",
+    price: 272,
+    strikedoffprice: 389,
+    discount: "30 % off",
+    colour:"grey",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/ee/P00647685_b1.jpg",
+    name: "DOLCE&GABBANA",
+    brand: "Polka dot silk shirt",
+    price: 678,
+    strikedoffprice: 969,
+    discount: "30 % off",
+    colour:"black",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/6c/P00637462_b1.jpg",
+    name: "ALANUI",
+    brand: "Icon cotton jacquard polo shirt",
+    price: 542,
+    strikedoffprice: 775,
+    discount: "30 % off",
+    colour:"blue",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/11/P00653903_b1.jpg",
+    name: "COMME DES GARÇONS HOMME DEUX",
+    brand: "Wool polo shirt",
+    price: 225,
+    strikedoffprice: 365,
+    discount: "30 % off",
+    colour:"blue",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/af/P00653797_b1.jpg",
+    name: "JUNYA WATANABE",
+    brand: "Cotton and linen shirt",
+    price: 479,
+    strikedoffprice: 685,
+    discount: "30 % off",
+    colour:"white",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {   image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/20/P00648573_b1.jpg",
+    name: "JIL SANDER",
+    brand: "Cotton-blend polo shirt",
+    price: 542,
+    strikedoffprice: 749,
+    discount: "30 % off",
+    colour:"black",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/ef/P00653954_b1.jpg",
+    name: "COMME DES GARÇONS HOMME",
+    brand: "Cotton and linen shorts",
+    price: 202,
+    strikedoffprice: 310,
+    discount: "30 % off",
+    colour:"white",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/ea/P00686508_b1.jpg",
+    name: "BYBORRE",
+    brand: "Cotton shorts",
+    price: 164,
+    strikedoffprice: 234,
+    discount: "30 % off",
+    colour:"black",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+    
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/75/P00653959_b1.jpg",
+    name: "COMME DES GARÇONS HOMME",
+    brand: "Cotton drawstring shorts",
+    price: 213,
+    strikedoffprice: 305,
+    discount: "30 % off",
+    colour:"grey",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/8c/P00636073_b1.jpg",
+    name: "LANVIN",
+    brand: "Printed bowling shirt",
+    price: 524,
+    strikedoffprice: 713,
+    discount: "30 % off",
+    colour:"white",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/c9/P00648810_b1.jpg",
+    name: "BALMAIN",
+    brand: "Striped shirt",
+    price: 349,
+    strikedoffprice: 749,
+    discount: "30 % off",
+    colour:"white",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/91/P00653918_b1.jpg",
+    name: "COMME DES GARÇONS HOMME DEUX",
+    brand: "Cotton polo T-shirt",
+    price: 150,
+    strikedoffprice: 215,
+    discount: "30 % off",
+    colour:"white",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/f6/P00648518_b1.jpg",
+    name: "NANUSHKA",
+    brand: "Dorian crochet cotton-blend shirt",
+    price: 234,
+    strikedoffprice: 335,
+    discount: "30 % off",
+    colour:"golden",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/0f/P00686509_b1.jpg",
+    name: "BYBORRE",
+    brand: "Cotton shorts",
+    price: 164,
+    strikedoffprice: 234,
+    discount: "30 % off",
+    colour:"pink",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/89/P00653255_b1.jpg",
+    name: "VEILANCE",
+    brand: "Spere LT nylon-blend shorts",
+    price: 150,
+    strikedoffprice: 215,
+    discount: "30 % off",
+    colour:"blue",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/ea/P00648512_b1.jpg",
+    name: "NANUSHKA",
+    brand: "Gillan cotton and linen V-neck vest",
+    price: 293,
+    strikedoffprice: 419,
+    discount: "30 % off",
+    colour:"pink",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+    
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/d8/P00653880_b1.jpg",
+    name: "COMME DES GARÇONS HOMME DEUX",
+    brand: "Striped cotton poplin shirt",
+    price: 150,
+    strikedoffprice: 215,
+    discount: "30 % off",
+    colour:"green",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/52/P00656759_b1.jpg",
+    name: "CASABLANCA",
+    brand: "Knitted cotton shirt",
+    price: 409,
+    strikedoffprice: 585,
+    discount: "30 % off",
+    colour:"yellow",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/8c/P00526195_b1.jpg",
+    name: "JOHN SMEDLEY",
+    brand: "Noah knitted cotton polo shirt",
+    price: 125,
+    strikedoffprice: 179,
+    discount: "30 % off",
+    colour:"white",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/62/P00649223_b1.jpg",
+    name: "ERL",
+    brand: "Floral printed shirt",
+    price: 83,
+    strikedoffprice: 119,
+    discount: "30 % off",
+    colour:"pink",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/59/P00653226_b1.jpg",
+    name: "WALES BONNER",
+    brand: "Cotton-blend polo shirt",
+    price: 188,
+    strikedoffprice: 239,
+    discount: "30 % off",
+    colour:"pink",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/3b/P00551327_b1.jpg",
+    name: "AMI PARIS",
+    brand: "Ami de Coeur polo shirt",
+    price: 90,
+    strikedoffprice: 120,
+    discount: "30 % off",
+    colour:"white",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/eb/P00641962_b1.jpg",
+    name: "LORO PIANA",
+    brand: "Hoaden ribbed-knit polo shirt",
+    price: 90,
+    strikedoffprice: 120,
+    discount: "30 % off",
+    colour:"brown",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/1e/P00641998_b1.jpg",
+    name: "LORO PIANA",
+    brand: "Byron short-sleeved polo shirt",
+    price: 415,
+    strikedoffprice: 669,
+    discount: "30 % off",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/ee/P00639227_b1.jpg",
+    name: "ACNE STUDIOS",
+    brand: "Cotton twill pants",
+    price: 215,
+    strikedoffprice: 339,
+    discount: "30 % off",
+    colour:"black",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/09/P00641945_b1.jpg",
+    name: "LORO PIANA",
+    brand: "Cotton and linen chinos",
+    price: 115,
+    strikedoffprice: 220,
+    discount: "30 % off",
+    colour:"white",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/c3/P00674102_b1.jpg",
+    name: "GUCCI",
+    brand: "Web-collar piqué polo shirt",
+    price: 375,
+    strikedoffprice: 480,
+    discount: "30 % off",
+    colour:"pink",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/b5/P00674121_b1.jpg",
+    name: "GUCCI",
+    brand: "Cotton canvas drawstring shorts",
+    price: 480,
+    strikedoffprice: 545,
+    discount: "30 % off",
+    colour:"black",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/e4/P00657836_b1.jpg",
+    name: "VISVIM",
+    brand: "Wallis Sunnybird shirt",
+    price: 480,
+    strikedoffprice: 680,
+    discount: "30 % off",
+    colour:"white",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/c5/P00674241_b1.jpg",
+    name: "GUCCI",
+    brand: "Single-breasted wool blazer",
+    price: 1100,
+    strikedoffprice: 1350,
+    discount: "30 % off",
+    colour:"golden",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/98/P00598686_b1.jpg",
+    name: "ORLEBAR BROWN",
+    brand: "Bancroft cotton and linen-blend shorts",
+    price: 195,
+    strikedoffprice: 250,
+    discount: "30 % off",
+    colour:"white",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/5f/P00689077_d2.jpg",
+    name: "GUCCI",
+    brand: "Aviator glasses",
+    price: 215,
+    strikedoffprice: 380,
+    discount: "30 % off",
+    colour:"brown",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+  {
+      image_url:
+      "https://img.mytheresa.com/560/560/33/jpeg/catalog/product/0f/P00689874_d2.jpg",
+    name: "ORLEBAR BROWN",
+    brand: "Bancroft cotton and linen-blend shorts",
+    price: 200,
+    strikedoffprice: 289,
+    discount: "30 % off",
+    colour:"brown",
+    size0:"S",
+    size1:"M",
+    size2:"L",
+    size3:"XL",
+  },
+];
+
+
+
+
+  // function of append data
+
+window.addEventListener("load", function(){
+      displayData(mensData);
+    });
+
+
+
+var container = document.createElement("div");
+    container.setAttribute("id","container");
+    document.querySelector("body").append(container);
+    var cartData = JSON.parse(localStorage.getItem("cart")) || [];
+
+   function displayData(mensData){
+    document.querySelector("#container").innerText = "";
+    
+
+      mensData.map(function(el){
+        var box = document.createElement("div");
+        
+        var img = document.createElement("img");
+        img.src = el.image_url;
+
+        var name = document.createElement("p");
+        name.textContent = el.name;
+
+        var brandName = document.createElement("p");
+        brandName.textContent = el.brand
+        
+        var discount=document.createElement("p")
+        discount.innerText=el.discount
+
+        var pricebox = document.createElement("div")
+        pricebox.setAttribute("id","pricebox")
+
+        var div1 = document.createElement("div")
+        var price = document.createElement("h3");
+        price.textContent = el.price;
+        div1.append(price);
+        
+        var div2 = document.createElement("div")
+        var striked = document.createElement("strike");
+        striked.textContent = el.strikedoffprice;
+        // striked.style.textDecoration = strike line-through
+        div2.append(striked);
+
+        pricebox.append(div1,div2);
+
+        var btn = document.createElement("button");
+        btn.setAttribute("id","btn")
+        btn.textContent = "Add to Cart";
+        btn.addEventListener("click", function(){
+            addToCart(el);
+        });
+
+        // box.append(img,name,prices);
+        box.append(img,name,brandName,pricebox,discount,btn);
+        document.querySelector("#container").append(box);
+      });
+
+      function addToCart(el){
+        // console.log(el);
+        cartData.push(el);
+        localStorage.setItem("cart",JSON.stringify(cartData));
+        alert("Item added to cart");
+      }
+
+   }
+
+</script>

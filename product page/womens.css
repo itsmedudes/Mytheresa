@@ -1,0 +1,254 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff
+}
+#shopping>a>img{
+    height: 30px;
+    margin-left: 5px;
+    width: 30px;
+  }
+  .lifeandkids{
+    margin: 15px;
+}
+#above-main-pf-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 12px;
+    
+    font-style: italic;
+    /* margin-top: 5px; */
+    font-weight: bolder;
+}
+#filter-sortby-price{
+    border: 0px;
+    color: #757575;
+    /* font-weight: lighter; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Roboto Mono', monospace; */
+    letter-spacing: 0px;
+    background-color: transparent;
+
+}
+
+#product-main-div>div p{
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3{
+    font-size: 12px;
+    font-weight: bolder;
+}
+img+h2{
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+
+
+#container{
+    width: 80%;
+    display: grid;
+    margin: auto;
+    margin-top: 50px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 5px;
+    
+    /* border: 1px solid red; */
+}
+#container>div{
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    padding: 5px;
+    margin-top: 10px;
+    
+
+}
+img{
+    width: 100%;
+}
+p{
+    font-size: 12px;
+    padding: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: gray;
+
+}
+
+#pricebox{
+    /* display: flex;
+    /* border: 1px solid red; */
+    /* justify-content: space-between; */ 
+    align-items: center;
+    margin-top: 15px;
+    
+}
+/* price-div */
+#main-box{
+    text-align: center;
+}
+#price-div-inner h3{
+    text-align: center;
+    margin: auto;
+}
+
+/* button{
+    display: block;
+    margin: auto;
+    padding: 10px 30px;
+    color: blue;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+} */
+
+@media only screen and (min-width: 421px) and (max-width: 780px) {
+    #container{
+    
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+
+/* small screens */
+@media only screen and (min-width: 70px) and (max-width: 420px) {
+    #container{
+    
+    grid-template-columns: repeat(1,1fr);
+    
+    }
+    
+}
+
+
+/* /------------------------------------------ */
+#main-pf-div{
+    display: flex;
+}
+#filter-main-div{
+    /* border: 1px solid red; */
+    width: 25%;
+    padding-left: 5px;
+}
+#product-main-div{
+    width: 80%;
+    /* border: 1px solid black; */
+}
+
+#sortBy-discount{
+    width: 90%;
+    padding: 5px;
+    border: 0px;
+    margin-top: 10px;
+}
+#sortBy-colour{
+    width: 90%;
+    padding: 5px;
+    border: 0px;
+    margin-top: 10px;
+}
+#sortBy-size{
+    width: 90%;
+    padding: 5px;
+    border: 0px;
+    margin-top: 10px;
+}
+span{
+    padding: 10px;
+    /* margin-left: 10px; */
+    color: black;
+    font-size: 14px;
+    font-weight: bolder;
+    font-family: Arial,Helvetica,sans-serif;
+}
+option{
+    color: grey;
+    font-family: Arial,Helvetica,sans-serif;
+}
+#sidenav div{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+hr{
+    border-top: 2px solid lightgray;
+    width: 90%;
+    /* margin: auto */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#site_name{
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+
+
+
+/* -------------------------------------------- valen-cato*/
+#valen-cato{
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+}
+#valen-cato>p{
+    background-color:white
+}
+
+
+/* --------- top div------------------*/
+
+#info-div{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: 757575;;
+}
+#info-div div{
+    width: 50%;
+   text-align: center;
+}
+#men-img{
+    width: 100%;
+    height: 100%;
+}
+#info-div p{
+    color: #757575;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+#valentino_name{
+    font-weight: lighter;
+    font-style: italic;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+#social-logo{
+    display: flex;
+    flex-direction: row;
+ }
+ #social-logo>div{
+    height: 30px;
+    width: 30px;
+ }
+ 

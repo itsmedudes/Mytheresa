@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#container{
+    width: 80%;
+    display: grid;
+    margin: auto;
+    margin-top: 50px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 30px;
+    /* border: 1px solid red; */
+}
+#container>div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+img{
+    width: 100%;
+}
+p{
+    font-size: 16px;
+    padding-left: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: gray;
+}
+
+#pricebox{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+button{
+    display: block;
+    margin: auto;
+    padding: 10px 30px;
+    color: blue;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+@media only screen and (min-width: 421px) and (max-width: 780px) {
+    #container{
+    
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+
+/* small screens */
+@media only screen and (min-width: 70px) and (max-width: 420px) {
+    #container{
+    
+    grid-template-columns: repeat(1,1fr);
+    
+    }
+    
+}

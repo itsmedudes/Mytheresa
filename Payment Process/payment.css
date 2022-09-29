@@ -1,0 +1,48 @@
+.card-container{
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   width: 50%;
+}
+.card{
+   width: 50px;
+}
+.payment-bottom-back{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.payment-bottom-back>div:nth-child(1){
+   width: 30%;
+   text-align: left;
+}
+.payment-bottom-back>div:nth-child(2){
+   width: 30%;
+   text-align: right;
+}
+.payment-bottom-back>div:nth-child(1)>button{
+    border: 0px;
+    font-weight: bold;
+    padding: 15px 20px; 
+    text-transform: uppercase;
+}
+.payment-container{
+  display: flex;
+  width: 75%;
+  margin: auto;
+  align-items: flex-start;
+  
+}
+
+.card-details{
+   width: 50%;
+}
+#okfile{
+   width: 75%;
+   margin: auto;
+}
+.payment-card-logo{
+   height: 64px;
+   width: 64px;
+}

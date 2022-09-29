@@ -1,0 +1,38 @@
+
+html{
+   font-size: 62.5%;
+}
+#container{
+  border: 1px solid red;
+  height: 25rem;
+  width: 75%;
+  margin: auto;
+}
+#container>h3{
+   border: 1px solid black;
+   font-size: 1.3rem;
+}
+#container>h3+div{
+   text-align: right;
+   
+}
+#container>h3+div>button{
+   color: white;
+   background-color: black;
+   font-size: 1.3rem;
+   text-transform: uppercase;
+   letter-spacing: .1rem;
+   padding: .7rem 2rem;
+}
+.pqs{
+   margin-top: 1.2rem;
+   margin-right: 2rem;
+   font-size: 1.7rem;
+   font-weight: bold;
+   display: flex;
+   gap: 1.5rem;
+   justify-content: end;
+   align-items: center;
+}
+
+

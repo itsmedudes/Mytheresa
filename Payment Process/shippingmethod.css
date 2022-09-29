@@ -1,0 +1,36 @@
+
+.shipping-box{
+   border: 1px solid;
+   padding: 8px;
+
+}
+.line-shipping{
+   width: 100%;
+}
+.price{
+   display: inline-block;
+   
+}
+.radio-express{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.packing-container{
+   display: flex;
+   justify-content: space-between;
+}
+#shipping-billing{
+   display: flex;
+   width: 75%;
+   margin: auto;
+   justify-content: space-around;
+   gap: 10px;
+   
+}
+#billing{
+   width: 45%;
+}
+#shipping{
+   width: 45%;
+}
